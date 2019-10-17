@@ -1,0 +1,19 @@
+//created on: 2019-10-3
+package com.rulesHello
+
+//list any import classes here.
+
+
+
+//declare any global variables here
+
+
+
+
+rule "hello world"
+    when
+        eval(true);
+    then
+        System.out.println("hello world");
+end
+
