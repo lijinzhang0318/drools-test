@@ -30,7 +30,7 @@ public class RulesTable {
 	
 	@Test
 	public void printTableXls1() {
-		printDrl("C:\\Users\\lijinzhang\\git\\drools-demo\\src\\main\\resources\\table\\tableXls1.xls");
+		printDrl("E:\\MyProgramming\\WorkPlace\\Eclipse\\drools-test\\src\\main\\resources\\rules\\isXls\\tableXls.xls");
 	}
 	
 	private void printDrl(String url) {
