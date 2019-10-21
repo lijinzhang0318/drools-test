@@ -15,4 +15,7 @@
                       row="3" col="2"/>
         <ksession name="isDrt"/>
     </kbase>
+    <kbase name="isOrder" packages="rules.isOrder">
+        <ksession name="isOrder"/>
+    </kbase>
 </kmodule>
