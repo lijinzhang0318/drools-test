@@ -24,7 +24,7 @@ public class TestRuleListener {
 
     @Test
     public void testRuleAgendaImpl(){
-        Resource drl = ResourceFactory.newClassPathResource("rulesTwo/Listener/isRuleRunTime.drl", TestRuleListener.class);
+        Resource drl = ResourceFactory.newClassPathResource("rules/listener/isRuleRunTime.drl", TestRuleListener.class);
         KieHelper helper = new KieHelper();
         helper.addResource(drl, ResourceType.DRL);
         KieSession ksession = helper.build().newKieSession();

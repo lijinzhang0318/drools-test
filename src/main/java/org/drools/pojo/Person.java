@@ -3,10 +3,15 @@ package org.drools.pojo;
 import java.util.Date;
 
 public class Person {
-    private String name;//姓名
-    private int age;//年龄
-    private String className;//所在班级
+	
+    private String name;
+    
+    private int age;
+    
+    private String className;
+    
     private School school;
+    
     private Double dous;
 
     private Date date;

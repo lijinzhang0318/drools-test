@@ -1,0 +1,43 @@
+//created on: 2019-10-18
+package rules.isOrder
+
+/*
+rule "test first"
+    salience 0
+    no-loop false
+    when
+        $test: String( )
+    then 
+        System.out.println($test);
+        insert("second");
+end
+
+rule "test second"
+    salience -10
+    when
+        $test: String( )
+    then 
+        System.out.println($test + " the 2nd");
+        insert("three");
+end
+*/
+
+rule "规则1"
+    //salience 0
+    //no-loop true
+    when
+        $test: String( )
+    then 
+        System.out.println($test);
+        insert("2");
+end
+
+rule "规则2"
+    //salience -10
+    //no-loop true
+    when
+        $test: String( )
+    then 
+        System.out.println($test + " A");
+        insert("3");
+end

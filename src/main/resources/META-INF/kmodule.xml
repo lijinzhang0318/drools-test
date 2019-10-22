@@ -3,6 +3,18 @@
     <kbase name="rules" packages="rules">
 		<ksession name="testhelloworld"/>
 	</kbase>
+	<kbase name="isNoLoop" packages="rules.isAttributes.noLoop">
+        <ksession name="isNoLoop"/>
+    </kbase>
+    <kbase name="isLockNoActive" packages="rules.isAttributes.lockNoActive">
+        <ksession name="isLockNoActive"/>
+    </kbase>
+    <kbase name="isSalience" packages="rules.isAttributes.salience">
+        <ksession name="isSalience"/>
+    </kbase>
+    <kbase name="isActivationGroup" packages="rules.isAttributes.activationGroup">
+        <ksession name="isActivationGroup"/>
+    </kbase>
 	<kbase name="isXls" packages="rules.isXls">
 		<ksession name="isXls"/>
 	</kbase>
@@ -15,6 +27,12 @@
                       row="3" col="2"/>
         <ksession name="isDrt"/>
     </kbase>
+    <kbase name="isFlow" packages="rules.isFlow">
+        <ksession name="isFlow"/>
+    </kbase>
+    <!-- <kbase name="flowNameSame" packages="rules.isFlow.flowNameSame">
+        <ksession name="flowNameSame"/>
+    </kbase> -->
     <kbase name="isOrder" packages="rules.isOrder">
         <ksession name="isOrder"/>
     </kbase>
